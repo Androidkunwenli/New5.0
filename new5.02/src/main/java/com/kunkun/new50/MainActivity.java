@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewOutlineProvider;
 
 public class MainActivity extends Activity {
-
+    //添加了一个矢量图片
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
