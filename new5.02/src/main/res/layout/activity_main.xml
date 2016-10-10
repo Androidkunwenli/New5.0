@@ -4,7 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context="com.kunkun.new50.MainActivity">
 
@@ -43,7 +43,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/tint_bitmap"
-        android:src="@drawable/tint_vector" />
+        android:src="@drawable/tint_vector"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐藏了图片重叠"
+        android:textColor="#f00" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/state_anim"
+        android:stateListAnimator="@drawable/state_anim"
+        android:text="点我啊" />
 
 
 </LinearLayout>
